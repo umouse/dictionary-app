@@ -7,13 +7,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-           Ulala's Dictionary
+          <h1> Ulala's Dictionary </h1>
         </div>
       </header>
       <main>
        <Dictonary />
       </main>
-      <footer className="App-footer">Coded by Yuliia Ishchenko for SheCodes React workshop</footer>
+      <footer className="App-footer mt-5"><small>Coded by Yuliia Ishchenko for SheCodes React workshop</small></footer>
     </div>
   );
 }

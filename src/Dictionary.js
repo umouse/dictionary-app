@@ -20,7 +20,7 @@ export default function Dictonary() {
     }
 
     return(
-        <div className="dictionary">
+        <div className="dictionary mt-3">
             <form onSubmit={search}>
                 <input type="search" autoFocus={true} onChange={handleWordChange}></input>
             </form>
