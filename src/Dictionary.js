@@ -38,7 +38,7 @@ export default function Dictonary() {
             <section>
                 <h1>What word definition do you want to know?</h1>
             <form onSubmit={search}>
-                <input type="search" autoFocus={true} onChange={handleWordChange}></input>
+                <input type="search" autoFocus={true} placeholder="Search for the word and click 'Enter' then... " onChange={handleWordChange}></input>
             </form>
             <div className="hint">suggested worlds: war, Ukraine, support, donate, help </div>
             </section>
