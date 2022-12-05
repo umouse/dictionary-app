@@ -1,3 +1,4 @@
+import"./Dictionary.css"
 import React, {useState} from "react";
 import Results from './Results';
 import axios from "axios";
@@ -20,11 +21,16 @@ export default function Dictonary() {
     }
 
     return(
-        <div className="dictionary mt-3">
+        <div className="Dictionary mt-3">
+            <section>
+                <h1>What word definition do you want to know?</h1>
             <form onSubmit={search}>
                 <input type="search" autoFocus={true} onChange={handleWordChange}></input>
             </form>
+            <div className="hint">suggested worlds: war, Ukraine, support, donate, help </div>
+            </section>
             < Results  results={results}/>
+            
         </div>
     );
 }

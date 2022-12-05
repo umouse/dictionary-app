@@ -1,3 +1,23 @@
+
+body{
+  background: #dce9fc;
+  font-family: "Cerebri-Sans",Helvetica,Arial,sans-serif;
+}
+
 .App {
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a{
+  color: #dce9fc;
+}
+
+.App-header{
+  margin: 30px 0;
+}
+.App-footer{
   text-align: center;
+  margin: 30px 0;
 }
